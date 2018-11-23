@@ -88,7 +88,7 @@ var config = {
         var nextTrain = moment().add(minAway, "minutes");
         console.log("ARRIVAL TIME: " + moment(nextTrain).format("hh:mm"));
 
-        var nextT = moment(nextTrain).format("hh:mm a");
+        var nextT = moment(nextTrain).format("dddd, MMM DD, hh:mm a");
 
 
 //Create new table row
